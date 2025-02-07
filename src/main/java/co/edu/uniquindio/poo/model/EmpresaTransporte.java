@@ -3,7 +3,7 @@ package co.edu.uniquindio.poo.model;
 import java.time.LocalDate;
 import java.util.LinkedList;
 
-public class Empresa {
+public class EmpresaTransporte {
     private String nombre;
     private LinkedList<Propietario> listaPropietarios;
     private LinkedList<VehiculoCarga> listaVehiculosCarga;
@@ -14,7 +14,7 @@ public class Empresa {
      * 
      * @param nombre el nombre de la empresa
      */
-    public Empresa(String nombre) {
+    public EmpresaTransporte(String nombre) {
         this.nombre = nombre;
         this.listaPropietarios = new LinkedList<>();
         this.listaVehiculosCarga = new LinkedList<>();

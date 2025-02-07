@@ -4,11 +4,11 @@ import co.edu.uniquindio.poo.model.*;
 import java.util.Scanner;
 
 public class MainTransporte {
-    private Empresa empresa;
+    private EmpresaTransporte empresa;
     private Scanner scanner;
 
     public MainTransporte() {
-        this.empresa = new Empresa("movilidad sa");
+        this.empresa = new EmpresaTransporte("movilidad sa");
         this.scanner = new Scanner(System.in);
     }
 
